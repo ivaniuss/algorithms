@@ -1,4 +1,4 @@
-def insertion_algorithm(array):
+def insertion_sort(array):
     for i in range(1, len(array)):
         key = array[i]
         j = i - 1
@@ -10,7 +10,7 @@ def insertion_algorithm(array):
 
 def main():
     array = [5, 2, 4, 6, 1, 3]
-    print(insertion_algorithm(array))
+    print(insertion_sort(array))
 
 if __name__ == "__main__":
     main()
